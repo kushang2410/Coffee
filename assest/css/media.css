@@ -1,0 +1,187 @@
+@media (max-width:576px){
+	.fa-bars{
+		display:block;
+	}
+	.navbar{
+		display:none;
+		position: absolute;
+		top:100%;
+		left:0;
+		width:50%;
+		text-align: center;
+		background-color: white;
+	}
+	.header .navbar a{
+		display: block;
+	}
+	.row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	
+.icon-container {
+	display: block;
+
+}
+	.w-md-12{
+		width:100%;
+	}
+	
+	.w-md-10{
+		width:84%;
+	}
+	.w-md-6{
+		width:50%;
+	}
+	.w-10 {
+		width: 81.33%;
+	}
+	.btn{
+		display:inline-block;
+	}
+	.home{
+		padding-top:100px;
+		text-align:center;
+	}
+	.home-image{
+		padding-top:80px;
+		text-align: center;
+	}
+	.home-image img{
+		height:320px;
+		margin:auto;
+	}
+	
+.home-content h3{
+	font-size:50px;
+}
+	.image img{
+		width:100%;
+	}
+	
+	.heading{
+		font-size:50px;
+	}
+	.heading span{
+		font-size:25px;
+	}
+	
+}
+@media (max-width:768px){
+	.fa-bars{
+		display:block;
+	}
+	.navbar{
+		display:none;
+		position: absolute;
+		top:100%;
+		left:0;
+		width:50%;
+		text-align: center;
+		background-color: white;
+	}
+	.header .navbar a{
+		display: block;
+	}
+	
+	.row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.w-md-12{
+		width:100%;
+	}
+	.w-md-6{
+		width:50%;
+	}
+	.w-10 {
+		width: 81.33%;
+	}
+	.btn{
+		display:inline-block;
+	}
+	.home{
+		padding-top:100px;
+		text-align:center;
+	}
+	.home-image{
+		padding-top:80px;
+		text-align: center;
+	}
+	.home-image img{
+		height:10px;
+		margin:auto;
+	}
+	
+.home-content h3{
+	font-size:50px;
+}
+	.image img{
+		width:100%;
+	}
+	
+	.heading{
+		font-size:50px;
+	}
+	.heading span{
+		font-size:25px;
+	}
+	
+}
+@media (max-width:992px){
+	.fa-bars{
+		display:block;
+	}
+	.navbar{
+		display:none;
+		position: absolute;
+		top:100%;
+		left:0;
+		width:50%;
+		text-align: center;
+		background-color: white;
+	}
+	.header .navbar a{
+		display: block;
+	}
+	
+	.row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.w-xl-4{
+		width: 33.33%;
+	}
+	.btn{
+		display:inline-block;
+	}
+	.home{
+		padding-top:100px;
+		text-align:center;
+	}
+	.home-image{
+		padding-top:80px;
+		text-align: center;
+	}
+	.home-image img{
+		height: 350px;
+		margin:auto;
+	}
+	
+.home-content h3{
+	font-size:50px;
+}
+	.image img{
+		width:100%;
+	}
+	
+	.heading{
+		font-size:50px;
+	}
+	.heading span{
+		font-size:25px;
+	}
+	.image-slide{
+		height: 40px;
+	}
+}

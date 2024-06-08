@@ -1,0 +1,427 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+
+}
+
+
+.container {
+	max-width: 1320px;
+	margin: 0 auto;
+
+}
+
+.row {
+	display: flex;
+
+}
+
+.w-6 {
+	width: 50%;
+	
+}
+
+.w-4 {
+	width: 25%;
+}
+.w-10 {
+	width: 81.33%;
+}
+
+.fa-bars {
+	display: none;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-spacebtween {
+	justify-content: space-between;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.header {
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	box-shadow: 0px, 0px, 0px, 10px, black;
+	padding: 10px;
+	align-items: center;
+
+}
+
+.header .logo {
+	font-size: 25px;
+}
+.dark-mode{
+	background-color: black;
+	color: white;
+}
+.dark{
+	font-size: 30px;
+}
+.fa-circle-half-stroke{
+	margin-left: 50px;
+}
+.header .logo i {
+	font-size: 25px;
+	margin: 10px;
+
+}
+
+.header nav a {
+	font-size: 20px;
+	padding: 10px;
+	display: inline-block;
+}
+.btn {
+	font-size: 20px;
+	color: black;
+	border: 3px solid gray;
+	padding: 10px;
+	border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+	border-radius:10% 50% 10% 50% / 95% 3% 94% 4%;
+	transition: all 0.2s linear;
+}
+
+.btn:hover {
+	border: 3px dashed gray;
+	border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+	border-radius:5% 97% 4% 95% / 95% 3% 94% 4%;
+}
+
+.home {
+	min-height: 100vh;
+	background-image: url(../images/cb.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.vh {
+	height: 100vh;
+}
+
+.home-content h3 {
+	font-size: 70px;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.home-image {
+	text-align: right;
+	animation-name: imgcupanimate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	margin-top: 60px;
+}
+
+.home-image img {
+	height: 350px;
+}
+
+@keyframes imgcupanimate {
+	0% {
+		transform: translateY(0px);
+	}
+
+	100% {
+		transform: translateY(-100px);
+	}
+}
+
+.image-1 {
+	height: 0px;
+
+}
+
+.about {
+	padding: 20px;
+}
+
+.heading {
+	text-align: center;
+}
+
+.image img {
+	height: 500px;
+	border-radius: 50%;
+	animation-name: aboutimg;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes aboutimg {
+
+	50% {
+		transform: scale(.9);
+		border-radius: 4% 95% 6% 95% / 95% 4% 92% 5%;
+	}
+
+	100% {
+		transform: scale(.8);
+		border-radius: 4% 95% 6% 95% / 95% 4% 92% 5%;
+	}
+}
+
+.about-contain a {
+	padding: 10px;
+	
+}
+
+.about-contain h3 {
+	font-size: 30px;
+	color: black;
+	text-align: left;
+}
+
+.about-contain p {
+	font-size: 15px;
+	color: black;
+	line-height: 2;
+	margin-bottom: 15px;
+	
+}
+
+.icon-container {
+	margin-top: 10%;
+	display: flex;
+
+}
+
+.icon-container .icons {
+	border: 1px solid black;
+	border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+	border-radius:10% 50% 10% 50% / 95% 3% 94% 4%;
+	padding: 10px 18px;
+	margin: 20px;
+	text-align: center;
+
+
+}
+
+.icon-container .icons h3 {
+	font-size: 20px;
+}
+
+.heading {
+	font-size: 120px;
+	position: relative;
+	color: transparent;
+	-webkit-text-stroke: 0.1px #4242;
+}
+
+.heading span {
+	font-size: 50px;
+	color: #443;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 30%;
+
+
+}
+
+.image-slider {
+	text-align: center;
+}
+
+.image-slider img {
+	height: 120px;
+}
+
+.image-slider img:hover {
+	transform: translateY(-20px);
+	transition: 0.2S ALL linear;
+}
+
+.menu {
+	background-image: url(../images/menu-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.box-container .box:hover {
+	border: 2px dashed gray;
+	border-radius: 50% 10% 50% 10% / 4% 94% 3% 95%;
+	border-radius:10% 50% 10% 50% / 95% 3% 94% 4%;
+	transition: 0.1s linear;
+}
+
+.box-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.box-container .box {
+	color: gray;
+	width: 100%;
+	padding: 30px 30px;
+	margin: 25px;
+	border: 2px solid gray;
+	border-radius: 50% 10% 50% 10% / 4% 94% 3% 95%;
+	display: flex;
+	align-items: center;
+}
+
+.box-container .box p {
+	line-height: 2;
+}
+
+.box-container .box img {
+	margin-left: -60px;
+	height: 80px;
+}
+
+.review {
+	min-height: 70vh;
+}
+
+.review-container {
+	border: 1px solid black;
+	border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	margin: 30px;
+}
+
+.review-container .quotes {
+	font-size: 100px;
+	color: #ccc;
+}
+
+.review-container:hover .fa-quote-left {
+	transform: translateY(-100px);
+	transition: 0.2s linear all;
+}
+
+.review-container:hover .fa-quote-right {
+	transform: translateY(100px);
+	transition: 0.2s linear all;
+}
+
+.review-container .fa-quote-left {
+	position: absolute;
+	left: 20px;
+	top: 0;
+}
+
+.review-container .fa-quote-right {
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+}
+
+.review-container img {
+	height: 100px;
+	border-radius: 50%;
+
+}
+
+.review-container h3 {
+	color: gray;
+	line-height: 1.5;
+	font-size: 30px;
+}
+
+.review-container p {
+	color: gray;
+	line-height: 1.5;
+}
+
+.form-content {
+	text-align: center;
+}
+
+.send-btn {
+	display: block;
+}
+
+.booking {
+	min-height: 100vh;
+	background-image: url(../images/book-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.booking form {
+	border: 1px solid black;
+	border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+	padding: 50px;
+}
+
+.booking form .form-control {
+	margin: 8px 0;
+	padding: 10px;
+	width: 100%;
+	border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+	background: none;
+}
+
+button {
+	border: 1px solid gary;
+	background: none;
+	border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.footer .box1 {
+	padding-top: 30px;
+
+
+}
+
+.footer .box1 a {
+	display: block;
+	color: black;
+	font-size: 15px;
+	margin: 20px;
+
+}
+
+.footer .box1 a:hover i {
+	transition: 0.3s all linear;
+	margin-right: 25px;
+}
+
+.footer .box1 a i {
+	margin-right: 10px;
+	font-size: 15px;
+
+}
+
+.footer-containt {
+	text-align: center;
+	padding: 10px;
+	
+
+}
+
+.footer-containt span {
+	font-size: 25px;
+	color: black;
+}
